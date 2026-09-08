@@ -83,13 +83,11 @@ Each subtopic folder contains:
 
 ## Workflow
 
-1. Right after each class, spend 5–10 minutes filling `notes.md` and
-   `cheatsheet.md` for that session — don't batch it later.
-2. Complete `practice.py`/`practice.sql` a day or two after class, without
-   looking at notes first.
+1. Right after each class, spend 5–10 minutes filling `notes.md` and `cheatsheet.md` for that session — don't batch it later.
+2. Complete `practice.py`/`practice.sql` a day or two after class, without looking at notes first.
 3. Commit after every session so the repo tracks progress class-by-class.
 4. Quizzes for a module live in that module's `quizzes/` folder.
 
 ## Author
 
-**Anunay Argha** — Full Stack Developer, Lead (Software Development Community) & CSIT student at Shanto-Mariam University of Creative Technology (SMUCT)
+**Anunay Argha** — Full Stack Developer, Software Development Community Lead at Shanto-Mariam University of Creative Technology (SMUCT)
