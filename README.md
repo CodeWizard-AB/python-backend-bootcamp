@@ -1,12 +1,16 @@
-# Python Backend Engineering Bootcamp
+# CodeForge: Python Backend Engineering Bootcamp
 
-A structured, self-maintained knowledge base for a university bootcamp on
-Python backend engineering — covering Git & GitHub, Python, PostgreSQL, and
-FastAPI, built out through hands-on projects across 3-hour weekly sessions.
+![VSCode](https://skillicons.dev/icons?i=vscode)
+![Postman](https://skillicons.dev/icons?i=postman)
+![Python](https://skillicons.dev/icons?i=py)
+![FastAPI](https://skillicons.dev/icons?i=fastapi)
+![PostgreSQL](https://skillicons.dev/icons?i=postgres)
+![Git](https://skillicons.dev/icons?i=git)
+![GitHub](https://skillicons.dev/icons?i=github)
 
-This repo holds every class's notes, cheatsheets, code examples, practice
-exercises, and quizzes in one place, organized so any topic can be found
-and reviewed in seconds — during the course and afterward.
+A structured, production-grade knowledge base and code repository for the **CodeForge: Python Backend Engineering Bootcamp**. This repository documents 49 comprehensive sessions covering version control, advanced Python idioms, relational database design, asynchronous REST API engineering with FastAPI, and end-to-end capstone implementations.
+
+Every session is maintained as an isolated laboratory containing theoretical notes, concise syntax references, annotated implementation patterns, and independent challenge solutions.
 
 ## Course structure
 
@@ -67,19 +71,10 @@ Each subtopic folder contains:
 ## Class index
 
 ### 01 — Git & GitHub (1 class)
-- [Class 1](./01-git-github/)
-
 ### 02 — Python (12 classes)
-- [Class 1](./02-python/)  ← add a link per class as sessions happen
-
 ### 03 — PostgreSQL (12 classes)
-- [Class 1](./03-postgresql/)
-
 ### 04 — FastAPI (12 classes)
-- [Class 1](./04-fastapi/)
-
-### Projects (12 sessions)
-- [Project 1](./projects/)
+### 05 - Projects (12 sessions)
 
 ## Workflow
 
