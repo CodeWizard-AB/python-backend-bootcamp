@@ -85,4 +85,6 @@ Each subtopic folder contains:
 
 ## Author
 
-**Anunay Argha** — Full Stack Developer, Software Development Community Lead at Shanto-Mariam University of Creative Technology (SMUCT)
+**Anunay Argha** 
+Full Stack Developer & Software Development Community Lead
+Shanto-Mariam University of Creative Technology (SMUCT)
