@@ -1,90 +1,132 @@
-# CodeForge: Python Backend Engineering Bootcamp
+# 🔧 CodeForge: Python Backend Engineering Bootcamp
 
-![VSCode](https://skillicons.dev/icons?i=vscode)
-![Postman](https://skillicons.dev/icons?i=postman)
-![Python](https://skillicons.dev/icons?i=py)
-![FastAPI](https://skillicons.dev/icons?i=fastapi)
-![PostgreSQL](https://skillicons.dev/icons?i=postgres)
-![Git](https://skillicons.dev/icons?i=git)
-![GitHub](https://skillicons.dev/icons?i=github)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,py,postgres,fastapi,postman,vscode" alt="Tech Stack" />
+</p>
 
-A structured, production-grade knowledge base and code repository for the **CodeForge: Python Backend Engineering Bootcamp**. This repository documents 49 comprehensive sessions covering version control, advanced Python idioms, relational database design, asynchronous REST API engineering with FastAPI, and end-to-end capstone implementations.
+<p align="center">
+  <strong>A complete, project-driven path to becoming a Python backend engineer.</strong><br/>
+  Git & GitHub → Python → PostgreSQL → FastAPI → Real Deployed Projects
+</p>
 
-Every session is maintained as an isolated laboratory containing theoretical notes, concise syntax references, annotated implementation patterns, and independent challenge solutions.
+<p align="center">
+  <img src="https://img.shields.io/badge/Modules-5-blue" />
+  <img src="https://img.shields.io/badge/Classes-49-blue" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Job--Ready-success" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow" />
+</p>
 
-## Course structure
+---
 
-| Module | Classes | Duration | Format |
-|---|---|---|---|
-| Git & GitHub | 1 | 3 hrs | Version control fundamentals & workflow |
-| Python | 12 | 3 hrs each | Language fundamentals through advanced topics |
-| PostgreSQL | 12 | 3 hrs each | Relational database design & querying |
-| FastAPI | 12 | 3 hrs each | REST API development with a modern async framework |
-| Projects | 12 | 3 hrs each | Applied, end-to-end builds combining all modules |
+## 📖 About This Repository
 
-**49 sessions total**, each session logged as its own dated entry inside the
-relevant module folder.
+This repository is the official curriculum and documentation home for the
+**CodeForge: Python Backend Engineering Bootcamp** — a structured, hands-on
+program designed to take a complete beginner to a job-ready backend
+developer capable of designing databases, building secure REST APIs, and
+shipping real, deployed projects.
 
-## Repo structure
+Each module lives in its own folder with a dedicated `README.md` containing
+the full class-by-class curriculum, learning objectives, and topic
+breakdowns for that subject.
 
-Every topic folder follows the same layout, so navigating any module feels
-the same regardless of subject:
+---
+
+## 🗂️ Repository Structure
 
 ```
 python-backend-bootcamp/
+│
 ├── 01-git-github/
-│   ├── notes.md            # theory, explained in plain language
-│   ├── cheatsheet.md        # fast syntax/command reference
-│   └── practice/            # hands-on exercises
+│ └── README.md → Version control fundamentals & workflow
+│
 ├── 02-python/
-│   ├── class-01-<topic>/
-│   │   ├── notes.md
-│   │   ├── cheatsheet.md
-│   │   ├── examples.py      # heavily commented, runnable code
-│   │   └── practice.py      # exercises, solved independently
-│   ├── ...
-│   └── quizzes/
+│ └── README.md → Python programming, 12 classes
+│
 ├── 03-postgresql/
-│   └── ...same pattern (examples/practice as .sql)
+│ └── README.md → Relational databases, 12 classes
+│
 ├── 04-fastapi/
-│   └── ...same pattern
-└── projects/
-    ├── project-01-<name>/
-    └── ...
+│ └── README.md → REST API development, 12 classes
+│
+├── projects/
+│ └── README.md → Capstone project roadmap, 12 classes
+│
+├── .gitignore
+└── README.md → You are here
+
 ```
 
-Each subtopic folder contains:
-- **`notes.md`** — theory and concepts explained in my own words, with
-  real-world analogies where useful
-- **`cheatsheet.md`** — a terse, scannable syntax/command reference (no prose)
-- **`examples.py` / `.sql`** — working, heavily commented code
-- **`practice.py` / `.sql`** — exercises to complete without referring back
-  to notes
+---
 
-## Tech stack
+## 🧭 Learning Path
 
-- **Language:** Python 3
-- **Database:** PostgreSQL
-- **Framework:** FastAPI
-- **Version control:** Git & GitHub
+The bootcamp is designed as a straight-line progression — each module
+builds directly on the last. Follow the modules in order for the best
+learning experience.
 
-## Class index
+| #   | Module                                      | Classes | Focus                                                  |
+| --- | ------------------------------------------- | :-----: | ------------------------------------------------------ |
+| 1️⃣  | [Git & GitHub](./01-git-github/README.md)   |    1    | Version control, branching, collaboration workflow     |
+| 2️⃣  | [Python Programming](./02-python/README.md) |   12    | Core language, OOP, file handling, advanced topics     |
+| 3️⃣  | [PostgreSQL](./03-postgresql/README.md)     |   12    | Database design, SQL, joins, transactions, performance |
+| 4️⃣  | [FastAPI](./04-fastapi/README.md)           |   12    | REST APIs, auth, ORM integration, deployment           |
+| 5️⃣  | [Project Building](./projects/README.md)    |   12    | 3 real-world capstone projects, end-to-end             |
 
-### 01 — Git & GitHub (1 class)
-### 02 — Python (12 classes)
-### 03 — PostgreSQL (12 classes)
-### 04 — FastAPI (12 classes)
-### 05 - Projects (12 sessions)
+**Total: 49 classes** across 5 modules.
 
-## Workflow
+```text
+🔧 Git & GitHub  →  🐍 Python  →  🐘 PostgreSQL  →  ⚡ FastAPI  →  🏗️ Projects
+     (1)              (12)           (12)             (12)           (12)
+```
 
-1. Right after each class, spend 5–10 minutes filling `notes.md` and `cheatsheet.md` for that session — don't batch it later.
-2. Complete `practice.py`/`practice.sql` a day or two after class, without looking at notes first.
-3. Commit after every session so the repo tracks progress class-by-class.
-4. Quizzes for a module live in that module's `quizzes/` folder.
+---
 
-## Author
+## 🎯 Learning Outcomes
 
-**Anunay Argha** 
-Full Stack Developer & Software Development Community Lead
+By the end of this bootcamp, you will be able to:
+
+- ✅ Use Git and GitHub confidently in a professional team workflow
+- ✅ Write clean, idiomatic Python — from basics through OOP and advanced features
+- ✅ Design and query production-grade PostgreSQL databases
+- ✅ Build secure, validated, well-structured REST APIs with FastAPI
+- ✅ Implement authentication, authorization, and database integration
+- ✅ Design, build, test, and deploy real backend projects independently
+- ✅ Present a portfolio of working, deployed projects on GitHub
+
+---
+
+## 🛠️ Tech Stack
+
+| Category            | Tools                |
+| ------------------- | -------------------- |
+| **Language**        | Python 3             |
+| **Database**        | PostgreSQL           |
+| **Framework**       | FastAPI              |
+| **ORM**             | SQLAlchemy           |
+| **API Testing**     | Postman / Swagger UI |
+| **Version Control** | Git & GitHub         |
+| **Editor**          | VS Code              |
+
+---
+
+## 🚀 How to Use This Repository
+
+1. Start with **[`01-git-github`](./01-git-github/README.md)** and work through each module in order.
+2. Open a module's `README.md` to see its full class-by-class outline and checklist.
+3. Check off each module's **Module Checklist** as you complete it.
+4. Finish with **[`projects`](./projects/README.md)**, where all previous modules come together in three real, deployable applications.
+
+> 💡 Each module README includes a topic map, class breakdown, and checklist — everything you need to track progress at a glance.
+
+---
+
+## 👤 Author
+
+**Anunay Argha** |
+Full-Stack Developer | Software Community Lead |
 Shanto-Mariam University of Creative Technology (SMUCT)
+
+---
+
+<p align="center"><em>Built one commit at a time. 🚀</em></p>
